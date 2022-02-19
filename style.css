@@ -1,0 +1,55 @@
+ * {
+ 	padding: 0;
+ 	margin: 0;
+   text-decoration: none;
+   list-style: none;
+ 	box-sizing: border-box;
+ }
+
+body {
+   font-family: montserrat;
+ 	width: 100%;
+    height: 100%;  
+ }
+
+ header { 
+ 	background:  #0082e6;
+ 	height: 80px;
+   width: 100%;
+  }
+  label.logo{
+   color: black;
+   font-size: 30px;
+   font-style: bolder;
+   line-height: 50px;
+   padding: 0 10px;
+   font-weight: bolder;
+  }
+
+  nav ul li{
+   float: right;
+   margin: right: 20px;
+  }
+  nav ul li{
+   display: inline-block;
+   margin: 0 5px;
+  }
+  nav ul li a{
+   color: black;
+   font-size: 13px;
+   padding: 7px, 13px;
+   text-transform: uppercase;
+   border-radius: 5px;
+  }
+  nav ul li a1{
+   color: white;
+   font-size: 13px;
+   text-transform: uppercase;
+   background-color: mediumpurple;
+   border-radius: 5px;
+   padding: 10px;
+  }
+  a.activate, a:hover{
+   background: mediumpurple;
+   transition: .5s;
+  }
