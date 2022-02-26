@@ -4,7 +4,7 @@
    text-decoration: none;
    list-style: none;
    box-sizing: border-box;
-   scroll-behavior:smooth ;
+   scroll-behavior: smooth ;
  }
 body {
 	margin: 0px;
@@ -230,10 +230,12 @@ border-radius: 7px;
 }
 .recent-img{
 	object-fit: none;
-	object-position: 50px 40px;
+	object-position: center;
 	margin: 0px 100px;
-	margin-top: 20px;
+	margin-top: 30px;
+	margin-bottom: 50px;
 	box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
+
 }
 .recent-img img{
 	width:100%;
