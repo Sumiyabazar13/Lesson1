@@ -38,6 +38,7 @@ nav{
 }
 .logo img{
 	height: 50px;
+	width: 50px;
 }
 nav ul{
 	display: flex;
@@ -78,6 +79,7 @@ border-radius: 7px;
 .model{
 	width: 500px;
 	height: 500px;
+	margin-top: 50px;
 }
 .content{
 	width: 90%;
@@ -91,6 +93,7 @@ border-radius: 7px;
 }
 .main-text{
 	width: 500px;
+
 }
 .main-text h1{
 	font-size: 50px;
@@ -122,6 +125,7 @@ border-radius: 7px;
 
 
 #skills{
+	height: 610px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -208,6 +212,7 @@ border-radius: 7px;
 	flex-direction: column;
 	position: absolute;
 	margin-top: 1260px;
+	margin-left: 105px;
 }
 .recent-heading span,
 .client-heading span{
@@ -337,7 +342,6 @@ display: flex;
 
 
 
-
 #contact{
 	display:flex;
 	flex-direction: column;
@@ -442,6 +446,93 @@ span{color: #EF2727;}
 nav .menu-btn{
 		display: none;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.wrapper{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+}
+.wrapper .button{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+  width: 200px;
+}
+.wrapper .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 30px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #333;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #ff0000;
+}
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+  color: #4958FF
+}
+.fa-facebook-f{
+   color: black;
+}
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #333;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ff0000;
+}
+
+
+
 @media(max-width: 1140px){
 	.content{
 		width: 100%;
@@ -463,7 +554,6 @@ nav .menu-btn{
 	.client-box{
 		flex-grow: 0.5;
 	}
-}
 
 @media(max-width: 900px){
 	nav{
@@ -472,7 +562,8 @@ nav .menu-btn{
 		padding: 0px 30px;
 	}
 	.logo img{
-		height: 35px;
+		height: 50px;
+		width: 50px;
 	}
 	.menu{
 		display: none;
@@ -564,17 +655,16 @@ nav .menu-btn{
 		object-fit: cover;
 		object-position: left;
 	}
-	.recent-heading h3,
 	.client-heading h3,
 	#contact h3{
 		font-size: 2.2rem;
 		text-align: center;
 	}
 	.recent-heading{
-		text-align: center;
+		text-align: inherit;
 		padding: 0px 15px;
+		margin-left: 25px;
 	}
-}
 
 @media(max-width: 720px){
 	.model{
@@ -586,7 +676,19 @@ nav .menu-btn{
 		left: 50%;
 		top: 50%;
 		transform: translate(-50%,-50%);
-
+	}
+	.main-text{
+		margin-top: 400px;
+	}
+	.portfolio-btn{
+		margin-top: 20px;
+		object-position: center;
+	}
+	.skill-text{
+		margin-top: 230px;
+	}
+	.skill-img{
+		display: none;
 	}
 	#contact img{
 		height: 200px;
@@ -601,19 +703,61 @@ nav .menu-btn{
 	.recent-btn{
 		margin: 0px;
 	}
+	.recent-img{
+		height: 167px;
+		width: 377px;
+		margin-left: 30px;
+	}
+	.recent-heading{
+		margin-top: 50px;
+		margin-left: -30px;
+	}
+	.client-heading{
+		margin-right: 50px;
+	}
+	client-box{
+		margin-right: 70px;
+	}
 }
 
 @media(max-width: 530px){
+
 	.contact-input{
 		width: 90%;
+	}
+	#model{
+		height: 300;
+		width: 300;
+	}
+	.main-text{
+		margin-top:600px;
+		height: 600px;
+	}
+	.portfolio-btn{
+		margin-top: 20px;
+		object-position: center;
+	}
+	.skill-text{
+		margin-top: 1550px;
+		width: 85%;
+		margin-left: 25px;
 	}
 	.skill-img{
 		display: none;
 	}
-	.skill-text{
-		width: 85%;
+	.recent-img{
+		height: 155px;
+		width: 357px;
+		margin-left: 20px;
 	}
 	#skills{
 		margin: 0px;
+	}
+	.recent-heading{
+		margin-left: -55px;
+		margin-top: 100px;
+	}
+	.client-box {
+		margin-right: 25px;
 	}
 }
