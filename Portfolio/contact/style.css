@@ -51,15 +51,7 @@ nav ul li a{
   font-weight: 500;
   color: #000232;
   letter-spacing:1px;
-}
-.hey{
-  color:#709EFF;
-  font-weight: 500;
-  font-size: 0.9rem;
-  border-bottom: 2px solid #709EFF;
-  background-image: url("C:/Users/Ussummi/Downloads/Subjects/WEB231 (440)/images/bg.png");
-  background-position: center;
-  background-size: 1000px;
+
 }
 nav ul li a:hover{
 background-color: #616DFF;
