@@ -106,18 +106,7 @@ border-radius: 7px;
 .main-text p{
 	color: #747474;
 	}
-.portfolio-btn{
-	width: 190px;
-	height: 44px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #FFFFFF;
-	background-color: #4958FF;
-	border-radius: 20px;
-	box-shadow: 4px 10px 30px rgba(24, 139, 119, 0.2);
-}
-.portfolio-btn:hover,
+
 .client-box a:hover,
 .contact-input a:hover{
 	background-color: #6672FF;
