@@ -62,8 +62,17 @@ nav ul{
 color: white;
 }
 
-.navbar-toggler-icon{
-   border-color: #7176d7;
+.navbar-toggler-icon {
+    background-color: transparent;
+    margin-right: 0;
+    color: #6d62c2;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: #6d62c2;
+}
+
+.navbar-toggler-icon:hover {
+    background-color: #6d62c2;
 }
 
 
