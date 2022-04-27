@@ -154,7 +154,7 @@ ul a:hover ~ .cursor{
 
 
 #about{
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     cursor: default;
     background-image: url(img/bg.png);
