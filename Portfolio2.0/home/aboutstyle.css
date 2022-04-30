@@ -78,6 +78,7 @@ color: white;
 
 
 
+
 /*maintaii*/
 
 
@@ -515,18 +516,23 @@ ul a:hover ~ .cursor{
 
 .endfooter{
     background-color: #111;
-    display: inline-block;
     cursor: default;
     width: 100%;
-    text-align: center;
     align-items: center;
     border-style: solid;
     border-color: #111;
     border-top-color: #fff;
+    font-family: 'Poppin', sans-serif;
+    text-align: left;
+    padding: 0px 20px 10px 45px;
+    overflow: hidden;
+    cursor: default;
+}
+
+.endfooter:hover{
+    border-top-color: #111;
 }
 .footer-logo p{
-  color:  #999;
-  font-size: 19px;
   font-style: 'Poppin' sans-serif; 
 
 
