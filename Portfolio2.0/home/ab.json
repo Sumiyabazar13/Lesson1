@@ -1,0 +1,24 @@
+{
+   "general":{
+      "logo":"https://sumiyabazarr.github.io/Lesson1/Portfolio2.0/home/realhome.html",
+      "name" : "logo"
+   },
+   "navigation":[
+      {
+         "title":"About",
+         "link":"https://sumiyabazarr.github.io/Lesson1/Portfolio2.0/home/about.html"
+      },
+      {
+         "title":"Projects",
+         "link":"https://sumiyabazarr.github.io/Lesson1/Portfolio2.0/home/about.html/#projects"
+      },
+      {
+         "title":"About",
+         "link":"https://sumiyabazarr.github.io/Lesson1/Portfolio2.0/contact/contact.html"
+      },
+      {
+         "title":"About",
+         "link":"#"
+      },
+   ]
+}
