@@ -520,6 +520,7 @@ ul a:hover ~ .cursor{
     width: 100%;
     align-items: center;
     border-style: solid;
+	border-top-width: 1px;
     border-color: #111;
     border-top-color: #fff;
     font-family: 'Poppin', sans-serif;
@@ -527,10 +528,6 @@ ul a:hover ~ .cursor{
     padding: 0px 20px 10px 45px;
     overflow: hidden;
     cursor: default;
-}
-
-.endfooter:hover{
-    border-top-color: #111;
 }
 .footer-logo p{
   font-style: 'Poppin' sans-serif; 
